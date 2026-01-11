@@ -1,3 +1,7 @@
+"""
+An example of an airline assistant using tools to get ticket prices and calculate discounts.
+"""
+
 from dotenv import load_dotenv
 from agents import Agent, Runner, function_tool
 import gradio as gr
@@ -10,7 +14,8 @@ load_dotenv(override=True)
 MODEL = "gpt-4.1-mini"
 
 instructions = "You are a helpful assistant for an Airline called FlightAI. "
-instructions += "Use your tools to get ticket prices and calculate discounts. Trips to London have a 10% discount on the price. "
+instructions += "Use your tools to get ticket prices and calculate discounts. "
+instructions += "Trips to London have a 10% discount on the price. "
 instructions += "Always be accurate. If you don't know the answer, say so."
 
 DB = "prices.db"

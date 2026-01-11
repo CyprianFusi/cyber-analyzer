@@ -1,3 +1,9 @@
+"""
+Cybersecurity code analysis API using FastAPI, OpenAI Agents, and Semgrep.
+Provides endpoints to analyze Python code for security vulnerabilities
+and return structured reports.
+"""
+
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -31,7 +37,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class AnalyzeRequest(BaseModel):
     code: str
