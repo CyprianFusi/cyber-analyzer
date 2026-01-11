@@ -1,7 +1,9 @@
-# Cybersecurity Analyzer
-
 <div align="center">
-  <img src="assets/binati_logo.png" alt="Binati AInalytics Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/CyprianFusi/math-problem-solver/main/assets/binati_logo.png" alt="BINATI AI Logo" width="75"/><strong></strong>
+
+  # Cybersecurity Analyzer
+
+  _By **BINATI AInalytics**_
 </div>
 
 An AI-powered web application for analyzing Python code for security vulnerabilities using OpenAI Agents SDK and Semgrep. Built as part of the "AI in Production" course to teach modern cloud deployment practices.
